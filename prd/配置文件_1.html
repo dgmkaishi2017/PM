@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>配置文件</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/配置文件_1/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/配置文件_1/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2766" class="ax_default _文本段落">
+        <img id="u2766_img" class="img " src="images/配置文件_1/u2766.png"/>
+        <!-- Unnamed () -->
+        <div id="u2767" class="text">
+          <p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">配置文件是什么？</span><span style="font-family:'ArialMT', 'Arial';"></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">是指存放应用程序的全局配置信息的特殊文件，通常</span><span style="font-family:'ArialMT', 'Arial';">APP</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">的配置文件叫做</span><span style="font-family:'ArialMT', 'Arial';">app.config</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">。</span><span style="font-family:'ArialMT', 'Arial';"></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">比如记录上一次窗口状态，用户设置的一些选项等，当然也可以是连接字符串。</span><span style="font-family:'ArialMT', 'Arial';"></span></p><p><span style="font-family:'ArialMT', 'Arial';"><br></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">配置文件有什么用？</span><span style="font-family:'ArialMT', 'Arial';"></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">一般来说会使用配置文件来设定参数，增加软件灵活性。主要是根据客户环境不同而可以改变参数来达到目的。</span><span style="font-family:'ArialMT', 'Arial';"></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">如果不使用配置文件，那就是硬编码，程序发布后没有办法改变，只能重新编译并发布。</span><span style="font-family:'ArialMT', 'Arial';"></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">所以不做改动的信息信息写到程序里，要经常变动的信息就用配置文件。</span><span style="font-family:'ArialMT', 'Arial';"></span></p><p><span style="font-family:'ArialMT', 'Arial';"><br></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">配置文件和硬编码的区别</span><span style="font-family:'ArialMT', 'Arial';"></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">自定义配置文件可以使用自己独有的文件格式</span><span style="font-family:'ArialMT', 'Arial';">(</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">比如二进制格式</span><span style="font-family:'ArialMT', 'Arial';">)</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">，其它人很难解析。也可以采用特殊的加密算法，安全性好。</span><span style="font-family:'ArialMT', 'Arial';"></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">硬编码影响软件的扩展性。因为硬编码是固化的，即如果想修改这些参数必须重新编译并发布你的代码，而使用配置文件可以不必重新生成代码。</span><span style="font-family:'ArialMT', 'Arial';"></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">硬编码也不是你想象的那么安全，</span><span style="font-family:'ArialMT', 'Arial';">.NET</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">程序如果不进行特殊处理</span><span style="font-family:'ArialMT', 'Arial';">(</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">比如混淆</span><span style="font-family:'ArialMT', 'Arial';">)</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">，很容易被反编译并破解。</span><span style="font-family:'ArialMT', 'Arial';"></span></p><p><span style="font-family:'ArialMT', 'Arial';"><br></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">配置文件概述</span><span style="font-family:'ArialMT', 'Arial';"></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">应用程序配置文件是标准的</span><span style="font-family:'ArialMT', 'Arial';"> XML </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">文件，</span><span style="font-family:'ArialMT', 'Arial';">XML </span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">标记和属性是区分大小写的。它是可以按需要更改的，开发人员可以使用配置文件来更改设置，而不必重编译应用程序。配置文件的根节点是</span><span style="font-family:'ArialMT', 'Arial';">configuration</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">。我们经常访问的是</span><span style="font-family:'ArialMT', 'Arial';">appSettings</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">，它是由</span><span style="font-family:'ArialMT', 'Arial';">.Net</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">预定义的配置节。我们经常使用的配置文件的架构是客诉下面的形式。先大概有个印象，通过后面的实例会有一个比较清楚的认识。下面的</span><span style="font-family:'ArialMT', 'Arial';">“</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">配置节</span><span style="font-family:'ArialMT', 'Arial';">”</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">可以理解为进行配置一个</span><span style="font-family:'ArialMT', 'Arial';">XML</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">的节点。</span><span style="font-family:'ArialMT', 'Arial';"></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">常见配置文件模式：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u2768" class="ax_default _图片">
+        <img id="u2768_img" class="img " src="images/配置文件_1/u2768.png"/>
+        <!-- Unnamed () -->
+        <div id="u2769" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

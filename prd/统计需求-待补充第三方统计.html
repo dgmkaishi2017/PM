@@ -1,0 +1,910 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>统计需求-待补充第三方统计</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/统计需求-待补充第三方统计/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/统计需求-待补充第三方统计/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6282" class="ax_default _文本段落">
+        <img id="u6282_img" class="img " src="images/统计需求-待补充第三方统计/u6282.png"/>
+        <!-- Unnamed () -->
+        <div id="u6283" class="text">
+          <p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">产品数据的统计方法一般有</span><span style="font-family:'ArialMT', 'Arial';">2</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">类：</span><span style="font-family:'ArialMT', 'Arial';"></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">自建，比如相关事件埋点统计需求。</span><span style="font-family:'ArialMT', 'Arial';"></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">接入第三方。比如接入友盟统计。</span><span style="font-family:'ArialMT', 'Arial';"></span></p><p><span style="font-family:'ArialMT', 'Arial';"><br></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">产品数据的类型一般有</span><span style="font-family:'ArialMT', 'Arial';">2</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">种：</span><span style="font-family:'ArialMT', 'Arial';"></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">页面访问</span><span style="font-family:'ArialMT', 'Arial';"></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">用户行为</span><span style="font-family:'ArialMT', 'Arial';"></span></p><p><span style="font-family:'ArialMT', 'Arial';"><br></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">产品要统计哪些字段，形成哪些报表</span><span style="font-family:'ArialMT', 'Arial';"></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">数据统计的目标和需求满足的方向是一致的，这个功能解决了什么问题，那么通过数据怎么证明</span><span style="font-family:'ArialMT', 'Arial';">PM</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">提供的方案可以解决。</span><span style="font-family:'ArialMT', 'Arial';"></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">关于数据统计需要提取的指标及对比实验。</span><span style="font-family:'ArialMT', 'Arial';"></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">比较核心的是几个原则：</span><span style="font-family:'ArialMT', 'Arial';"></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">①是单一变量，尽量保证实验不受其他因素影响；</span><span style="font-family:'ArialMT', 'Arial';"></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">②是足够大的基数，基数不够大，数据的可信度不高，受随机行为的影响会比较大，一般建议实验组和对照组各不少于</span><span style="font-family:'ArialMT', 'Arial';">2000</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">人的访问；</span><span style="font-family:'ArialMT', 'Arial';"></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">③是既要看短目标，也要兼顾长目标，短目标是指和这个实验直接相关的指标，长目标是我们考量用户健康度的核心指标。比如在教育领域，通过优化课程详情页去吸引用户下单，从短目标来看是监控订单转化，而从长目标是去看</span><span style="font-family:'ArialMT', 'Arial';">&quot;</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">续费率</span><span style="font-family:'ArialMT', 'Arial';">&quot;</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">，单看订单能保证当下数据</span><span style="font-family:'ArialMT', 'Arial';">OK</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">，兼顾续费率才能保证未来半年甚至更长时间数据能够健康合理增长。</span><span style="font-family:'ArialMT', 'Arial';"></span></p><p><span style="font-family:'ArialMT', 'Arial';"><br></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">常见统计场景如下：</span><span style="font-family:'ArialMT', 'Arial';"></span></p><p><span style="font-family:'ArialMT', 'Arial';">1</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">、事件</span><span style="font-family:'ArialMT', 'Arial';"></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">用于流程优化</span><span style="font-family:'ArialMT', 'Arial';">/</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">天使用户跟踪</span><span style="font-family:'ArialMT', 'Arial';"></span></p><p><span style="font-family:'ArialMT', 'Arial';">2</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">、基础数据</span><span style="font-family:'ArialMT', 'Arial';">(AARRR</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">模型</span><span style="font-family:'ArialMT', 'Arial';">)</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">注册</span><span style="font-family:'ArialMT', 'Arial';">/</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">新增</span><span style="font-family:'ArialMT', 'Arial';">/</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">留存</span><span style="font-family:'ArialMT', 'Arial';">/</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">活跃</span><span style="font-family:'ArialMT', 'Arial';">/</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">召回</span><span style="font-family:'ArialMT', 'Arial';"></span></p><p><span style="font-family:'ArialMT', 'Arial';">3</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">、产品特性数据</span><span style="font-family:'ArialMT', 'Arial';"></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">①音频</span><span style="font-family:'ArialMT', 'Arial';">/</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">视频</span><span style="font-family:'ArialMT', 'Arial';">/</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">内容</span><span style="font-family:'ArialMT', 'Arial';"></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">时长</span><span style="font-family:'ArialMT', 'Arial';">/</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">完整率</span><span style="font-family:'ArialMT', 'Arial';">/</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">平均找到内容时间</span><span style="font-family:'ArialMT', 'Arial';">/</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">停留时间</span><span style="font-family:'ArialMT', 'Arial';">/</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">收藏</span><span style="font-family:'ArialMT', 'Arial';">/</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">赞</span><span style="font-family:'ArialMT', 'Arial';">/</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">分享</span><span style="font-family:'ArialMT', 'Arial';">..</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">②社交</span><span style="font-family:'ArialMT', 'Arial';"></span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">好友数</span><span style="font-family:'ArialMT', 'Arial';">/</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">互动时间</span><span style="font-family:'ArialMT', 'Arial';">/</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">评论</span><span style="font-family:'ArialMT', 'Arial';">/</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">好友关系链</span><span style="font-family:'ArialMT', 'Arial';">..</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">③电商</span><span style="font-family:'ArialMT', 'Arial';">(RFM)</span></p><p><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">客单价</span><span style="font-family:'ArialMT', 'Arial';">/</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">复购率</span><span style="font-family:'ArialMT', 'Arial';">/</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">上次购买时间</span><span style="font-family:'ArialMT', 'Arial';">/</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">购买频次</span><span style="font-family:'ArialMT', 'Arial';">/</span><span style="font-family:'PingFangSC-Regular', 'PingFang SC';">传播</span><span style="font-family:'ArialMT', 'Arial';">..</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6284" class="ax_default label">
+        <img id="u6284_img" class="img " src="images/统计需求-待补充第三方统计/u6284.png"/>
+        <!-- Unnamed () -->
+        <div id="u6285" class="text">
+          <p><span>APP页面点击</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Table) -->
+      <div id="u6286" class="ax_default">
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6287" class="ax_default table_cell">
+          <img id="u6287_img" class="img " src="images/统计需求-待补充第三方统计/u6287.png"/>
+          <!-- Unnamed () -->
+          <div id="u6288" class="text">
+            <p><span>页面名称</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6289" class="ax_default table_cell">
+          <img id="u6289_img" class="img " src="images/统计需求-待补充第三方统计/u6289.png"/>
+          <!-- Unnamed () -->
+          <div id="u6290" class="text">
+            <p><span>业务模式</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6291" class="ax_default table_cell">
+          <img id="u6291_img" class="img " src="images/统计需求-待补充第三方统计/u6291.png"/>
+          <!-- Unnamed () -->
+          <div id="u6292" class="text">
+            <p><span>分析方式</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6293" class="ax_default table_cell">
+          <img id="u6293_img" class="img " src="images/统计需求-待补充第三方统计/u6293.png"/>
+          <!-- Unnamed () -->
+          <div id="u6294" class="text">
+            <p><span>事件名称</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6295" class="ax_default table_cell">
+          <img id="u6295_img" class="img " src="images/统计需求-待补充第三方统计/u6295.png"/>
+          <!-- Unnamed () -->
+          <div id="u6296" class="text">
+            <p><span>可视化对应图</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6297" class="ax_default table_cell">
+          <img id="u6297_img" class="img " src="images/统计需求-待补充第三方统计/u6297.png"/>
+          <!-- Unnamed () -->
+          <div id="u6298" class="text">
+            <p><span>页面及自定义时间ID</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6299" class="ax_default table_cell">
+          <img id="u6299_img" class="img " src="images/统计需求-待补充第三方统计/u6299.png"/>
+          <!-- Unnamed () -->
+          <div id="u6300" class="text">
+            <p><span>自定义时间label</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6301" class="ax_default table_cell">
+          <img id="u6301_img" class="img " src="images/统计需求-待补充第三方统计/u6301.png"/>
+          <!-- Unnamed () -->
+          <div id="u6302" class="text">
+            <p><span>自定义事件参数</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6303" class="ax_default table_cell">
+          <img id="u6303_img" class="img " src="images/统计需求-待补充第三方统计/u6303.png"/>
+          <!-- Unnamed () -->
+          <div id="u6304" class="text">
+            <p><span>实现方式-分析</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6305" class="ax_default table_cell">
+          <img id="u6305_img" class="img " src="images/统计需求-待补充第三方统计/u6305.png"/>
+          <!-- Unnamed () -->
+          <div id="u6306" class="text">
+            <p><span>备注</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6307" class="ax_default table_cell">
+          <img id="u6307_img" class="img " src="images/统计需求-待补充第三方统计/u6293.png"/>
+          <!-- Unnamed () -->
+          <div id="u6308" class="text">
+            <p><span>埋点方式</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6309" class="ax_default table_cell">
+          <img id="u6309_img" class="img " src="images/统计需求-待补充第三方统计/u6309.png"/>
+          <!-- Unnamed () -->
+          <div id="u6310" class="text">
+            <p><span>事件名称</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6311" class="ax_default table_cell">
+          <img id="u6311_img" class="img " src="images/统计需求-待补充第三方统计/u6311.png"/>
+          <!-- Unnamed () -->
+          <div id="u6312" class="text">
+            <p><span>调用接口</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6313" class="ax_default table_cell">
+          <img id="u6313_img" class="img " src="images/统计需求-待补充第三方统计/u6313.png"/>
+          <!-- Unnamed () -->
+          <div id="u6314" class="text">
+            <p><span>注意事项</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6315" class="ax_default table_cell">
+          <img id="u6315_img" class="img " src="images/统计需求-待补充第三方统计/u6315.png"/>
+          <!-- Unnamed () -->
+          <div id="u6316" class="text">
+            <p><span>版本</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6317" class="ax_default table_cell">
+          <img id="u6317_img" class="img " src="images/统计需求-待补充第三方统计/u6317.png"/>
+          <!-- Unnamed () -->
+          <div id="u6318" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6319" class="ax_default table_cell">
+          <img id="u6319_img" class="img " src="images/统计需求-待补充第三方统计/u6319.png"/>
+          <!-- Unnamed () -->
+          <div id="u6320" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6321" class="ax_default table_cell">
+          <img id="u6321_img" class="img " src="images/统计需求-待补充第三方统计/u6321.png"/>
+          <!-- Unnamed () -->
+          <div id="u6322" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6323" class="ax_default table_cell">
+          <img id="u6323_img" class="img " src="images/统计需求-待补充第三方统计/u6323.png"/>
+          <!-- Unnamed () -->
+          <div id="u6324" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6325" class="ax_default table_cell">
+          <img id="u6325_img" class="img " src="images/设计指南/u62.png"/>
+          <!-- Unnamed () -->
+          <div id="u6326" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6327" class="ax_default table_cell">
+          <img id="u6327_img" class="img " src="images/统计需求-待补充第三方统计/u6327.png"/>
+          <!-- Unnamed () -->
+          <div id="u6328" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6329" class="ax_default table_cell">
+          <img id="u6329_img" class="img " src="images/统计需求-待补充第三方统计/u6329.png"/>
+          <!-- Unnamed () -->
+          <div id="u6330" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6331" class="ax_default table_cell">
+          <img id="u6331_img" class="img " src="images/统计需求-待补充第三方统计/u6331.png"/>
+          <!-- Unnamed () -->
+          <div id="u6332" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6333" class="ax_default table_cell">
+          <img id="u6333_img" class="img " src="images/统计需求-待补充第三方统计/u6333.png"/>
+          <!-- Unnamed () -->
+          <div id="u6334" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6335" class="ax_default table_cell">
+          <img id="u6335_img" class="img " src="images/统计需求-待补充第三方统计/u6335.png"/>
+          <!-- Unnamed () -->
+          <div id="u6336" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6337" class="ax_default table_cell">
+          <img id="u6337_img" class="img " src="images/统计需求-待补充第三方统计/u6323.png"/>
+          <!-- Unnamed () -->
+          <div id="u6338" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6339" class="ax_default table_cell">
+          <img id="u6339_img" class="img " src="images/边界问题/u3421.png"/>
+          <!-- Unnamed () -->
+          <div id="u6340" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6341" class="ax_default table_cell">
+          <img id="u6341_img" class="img " src="images/统计需求-待补充第三方统计/u6341.png"/>
+          <!-- Unnamed () -->
+          <div id="u6342" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6343" class="ax_default table_cell">
+          <img id="u6343_img" class="img " src="images/统计需求-待补充第三方统计/u6343.png"/>
+          <!-- Unnamed () -->
+          <div id="u6344" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6345" class="ax_default table_cell">
+          <img id="u6345_img" class="img " src="images/统计需求-待补充第三方统计/u6345.png"/>
+          <!-- Unnamed () -->
+          <div id="u6346" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6347" class="ax_default table_cell">
+          <img id="u6347_img" class="img " src="images/统计需求-待补充第三方统计/u6347.png"/>
+          <!-- Unnamed () -->
+          <div id="u6348" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6349" class="ax_default table_cell">
+          <img id="u6349_img" class="img " src="images/统计需求-待补充第三方统计/u6349.png"/>
+          <!-- Unnamed () -->
+          <div id="u6350" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6351" class="ax_default table_cell">
+          <img id="u6351_img" class="img " src="images/统计需求-待补充第三方统计/u6351.png"/>
+          <!-- Unnamed () -->
+          <div id="u6352" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6353" class="ax_default table_cell">
+          <img id="u6353_img" class="img " src="images/统计需求-待补充第三方统计/u6353.png"/>
+          <!-- Unnamed () -->
+          <div id="u6354" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6355" class="ax_default table_cell">
+          <img id="u6355_img" class="img " src="images/统计需求-待补充第三方统计/u6355.png"/>
+          <!-- Unnamed () -->
+          <div id="u6356" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6357" class="ax_default table_cell">
+          <img id="u6357_img" class="img " src="images/统计需求-待补充第三方统计/u6357.png"/>
+          <!-- Unnamed () -->
+          <div id="u6358" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6359" class="ax_default table_cell">
+          <img id="u6359_img" class="img " src="images/统计需求-待补充第三方统计/u6359.png"/>
+          <!-- Unnamed () -->
+          <div id="u6360" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6361" class="ax_default table_cell">
+          <img id="u6361_img" class="img " src="images/统计需求-待补充第三方统计/u6361.png"/>
+          <!-- Unnamed () -->
+          <div id="u6362" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6363" class="ax_default table_cell">
+          <img id="u6363_img" class="img " src="images/统计需求-待补充第三方统计/u6363.png"/>
+          <!-- Unnamed () -->
+          <div id="u6364" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6365" class="ax_default table_cell">
+          <img id="u6365_img" class="img " src="images/统计需求-待补充第三方统计/u6365.png"/>
+          <!-- Unnamed () -->
+          <div id="u6366" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6367" class="ax_default table_cell">
+          <img id="u6367_img" class="img " src="images/统计需求-待补充第三方统计/u6353.png"/>
+          <!-- Unnamed () -->
+          <div id="u6368" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6369" class="ax_default table_cell">
+          <img id="u6369_img" class="img " src="images/统计需求-待补充第三方统计/u6369.png"/>
+          <!-- Unnamed () -->
+          <div id="u6370" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6371" class="ax_default table_cell">
+          <img id="u6371_img" class="img " src="images/统计需求-待补充第三方统计/u6371.png"/>
+          <!-- Unnamed () -->
+          <div id="u6372" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6373" class="ax_default table_cell">
+          <img id="u6373_img" class="img " src="images/统计需求-待补充第三方统计/u6373.png"/>
+          <!-- Unnamed () -->
+          <div id="u6374" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6375" class="ax_default table_cell">
+          <img id="u6375_img" class="img " src="images/统计需求-待补充第三方统计/u6375.png"/>
+          <!-- Unnamed () -->
+          <div id="u6376" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6377" class="ax_default label">
+        <img id="u6377_img" class="img " src="images/统计需求-待补充第三方统计/u6377.png"/>
+        <!-- Unnamed () -->
+        <div id="u6378" class="text">
+          <p><span>APP analytics埋点</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u6379" class="ax_default label">
+        <img id="u6379_img" class="img " src="images/版本号命名/u1365.png"/>
+        <!-- Unnamed () -->
+        <div id="u6380" class="text">
+          <p><span>AdTracking 埋点</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Table) -->
+      <div id="u6381" class="ax_default">
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6382" class="ax_default table_cell">
+          <img id="u6382_img" class="img " src="images/统计需求-待补充第三方统计/u6382.png"/>
+          <!-- Unnamed () -->
+          <div id="u6383" class="text">
+            <p><span>ID</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6384" class="ax_default table_cell">
+          <img id="u6384_img" class="img " src="images/统计需求-待补充第三方统计/u6384.png"/>
+          <!-- Unnamed () -->
+          <div id="u6385" class="text">
+            <p><span>统计项目</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6386" class="ax_default table_cell">
+          <img id="u6386_img" class="img " src="images/原型尺寸/u1554.png"/>
+          <!-- Unnamed () -->
+          <div id="u6387" class="text">
+            <p><span>提供商</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6388" class="ax_default table_cell">
+          <img id="u6388_img" class="img " src="images/统计需求-待补充第三方统计/u6388.png"/>
+          <!-- Unnamed () -->
+          <div id="u6389" class="text">
+            <p><span>备注</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6390" class="ax_default table_cell">
+          <img id="u6390_img" class="img " src="images/统计需求-待补充第三方统计/u6382.png"/>
+          <!-- Unnamed () -->
+          <div id="u6391" class="text">
+            <p><span>1</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6392" class="ax_default table_cell">
+          <img id="u6392_img" class="img " src="images/统计需求-待补充第三方统计/u6384.png"/>
+          <!-- Unnamed () -->
+          <div id="u6393" class="text">
+            <p><span>活跃用户数</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6394" class="ax_default table_cell">
+          <img id="u6394_img" class="img " src="images/原型尺寸/u1554.png"/>
+          <!-- Unnamed () -->
+          <div id="u6395" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6396" class="ax_default table_cell">
+          <img id="u6396_img" class="img " src="images/统计需求-待补充第三方统计/u6388.png"/>
+          <!-- Unnamed () -->
+          <div id="u6397" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6398" class="ax_default table_cell">
+          <img id="u6398_img" class="img " src="images/统计需求-待补充第三方统计/u6382.png"/>
+          <!-- Unnamed () -->
+          <div id="u6399" class="text">
+            <p><span>2</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6400" class="ax_default table_cell">
+          <img id="u6400_img" class="img " src="images/统计需求-待补充第三方统计/u6384.png"/>
+          <!-- Unnamed () -->
+          <div id="u6401" class="text">
+            <p><span>流失用户数</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6402" class="ax_default table_cell">
+          <img id="u6402_img" class="img " src="images/原型尺寸/u1554.png"/>
+          <!-- Unnamed () -->
+          <div id="u6403" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6404" class="ax_default table_cell">
+          <img id="u6404_img" class="img " src="images/统计需求-待补充第三方统计/u6388.png"/>
+          <!-- Unnamed () -->
+          <div id="u6405" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6406" class="ax_default table_cell">
+          <img id="u6406_img" class="img " src="images/统计需求-待补充第三方统计/u6382.png"/>
+          <!-- Unnamed () -->
+          <div id="u6407" class="text">
+            <p><span>3</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6408" class="ax_default table_cell">
+          <img id="u6408_img" class="img " src="images/统计需求-待补充第三方统计/u6384.png"/>
+          <!-- Unnamed () -->
+          <div id="u6409" class="text">
+            <p><span>留存用户数</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6410" class="ax_default table_cell">
+          <img id="u6410_img" class="img " src="images/原型尺寸/u1554.png"/>
+          <!-- Unnamed () -->
+          <div id="u6411" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6412" class="ax_default table_cell">
+          <img id="u6412_img" class="img " src="images/统计需求-待补充第三方统计/u6388.png"/>
+          <!-- Unnamed () -->
+          <div id="u6413" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6414" class="ax_default table_cell">
+          <img id="u6414_img" class="img " src="images/统计需求-待补充第三方统计/u6382.png"/>
+          <!-- Unnamed () -->
+          <div id="u6415" class="text">
+            <p><span>4</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6416" class="ax_default table_cell">
+          <img id="u6416_img" class="img " src="images/统计需求-待补充第三方统计/u6384.png"/>
+          <!-- Unnamed () -->
+          <div id="u6417" class="text">
+            <p><span>使用频率</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6418" class="ax_default table_cell">
+          <img id="u6418_img" class="img " src="images/原型尺寸/u1554.png"/>
+          <!-- Unnamed () -->
+          <div id="u6419" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6420" class="ax_default table_cell">
+          <img id="u6420_img" class="img " src="images/统计需求-待补充第三方统计/u6388.png"/>
+          <!-- Unnamed () -->
+          <div id="u6421" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6422" class="ax_default table_cell">
+          <img id="u6422_img" class="img " src="images/统计需求-待补充第三方统计/u6382.png"/>
+          <!-- Unnamed () -->
+          <div id="u6423" class="text">
+            <p><span>5</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6424" class="ax_default table_cell">
+          <img id="u6424_img" class="img " src="images/统计需求-待补充第三方统计/u6384.png"/>
+          <!-- Unnamed () -->
+          <div id="u6425" class="text">
+            <p><span>使用时长</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6426" class="ax_default table_cell">
+          <img id="u6426_img" class="img " src="images/原型尺寸/u1554.png"/>
+          <!-- Unnamed () -->
+          <div id="u6427" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6428" class="ax_default table_cell">
+          <img id="u6428_img" class="img " src="images/统计需求-待补充第三方统计/u6388.png"/>
+          <!-- Unnamed () -->
+          <div id="u6429" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6430" class="ax_default table_cell">
+          <img id="u6430_img" class="img " src="images/统计需求-待补充第三方统计/u6382.png"/>
+          <!-- Unnamed () -->
+          <div id="u6431" class="text">
+            <p><span>6</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6432" class="ax_default table_cell">
+          <img id="u6432_img" class="img " src="images/统计需求-待补充第三方统计/u6384.png"/>
+          <!-- Unnamed () -->
+          <div id="u6433" class="text">
+            <p><span>地域</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6434" class="ax_default table_cell">
+          <img id="u6434_img" class="img " src="images/原型尺寸/u1554.png"/>
+          <!-- Unnamed () -->
+          <div id="u6435" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6436" class="ax_default table_cell">
+          <img id="u6436_img" class="img " src="images/统计需求-待补充第三方统计/u6388.png"/>
+          <!-- Unnamed () -->
+          <div id="u6437" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6438" class="ax_default table_cell">
+          <img id="u6438_img" class="img " src="images/统计需求-待补充第三方统计/u6382.png"/>
+          <!-- Unnamed () -->
+          <div id="u6439" class="text">
+            <p><span>7</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6440" class="ax_default table_cell">
+          <img id="u6440_img" class="img " src="images/统计需求-待补充第三方统计/u6384.png"/>
+          <!-- Unnamed () -->
+          <div id="u6441" class="text">
+            <p><span>错误日志统计与处理</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6442" class="ax_default table_cell">
+          <img id="u6442_img" class="img " src="images/原型尺寸/u1554.png"/>
+          <!-- Unnamed () -->
+          <div id="u6443" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6444" class="ax_default table_cell">
+          <img id="u6444_img" class="img " src="images/统计需求-待补充第三方统计/u6388.png"/>
+          <!-- Unnamed () -->
+          <div id="u6445" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6446" class="ax_default table_cell">
+          <img id="u6446_img" class="img " src="images/统计需求-待补充第三方统计/u6382.png"/>
+          <!-- Unnamed () -->
+          <div id="u6447" class="text">
+            <p><span>8</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6448" class="ax_default table_cell">
+          <img id="u6448_img" class="img " src="images/统计需求-待补充第三方统计/u6384.png"/>
+          <!-- Unnamed () -->
+          <div id="u6449" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6450" class="ax_default table_cell">
+          <img id="u6450_img" class="img " src="images/原型尺寸/u1554.png"/>
+          <!-- Unnamed () -->
+          <div id="u6451" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6452" class="ax_default table_cell">
+          <img id="u6452_img" class="img " src="images/统计需求-待补充第三方统计/u6388.png"/>
+          <!-- Unnamed () -->
+          <div id="u6453" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6454" class="ax_default table_cell">
+          <img id="u6454_img" class="img " src="images/统计需求-待补充第三方统计/u6382.png"/>
+          <!-- Unnamed () -->
+          <div id="u6455" class="text">
+            <p><span>9</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6456" class="ax_default table_cell">
+          <img id="u6456_img" class="img " src="images/统计需求-待补充第三方统计/u6384.png"/>
+          <!-- Unnamed () -->
+          <div id="u6457" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6458" class="ax_default table_cell">
+          <img id="u6458_img" class="img " src="images/原型尺寸/u1554.png"/>
+          <!-- Unnamed () -->
+          <div id="u6459" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6460" class="ax_default table_cell">
+          <img id="u6460_img" class="img " src="images/统计需求-待补充第三方统计/u6388.png"/>
+          <!-- Unnamed () -->
+          <div id="u6461" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6462" class="ax_default table_cell">
+          <img id="u6462_img" class="img " src="images/统计需求-待补充第三方统计/u6382.png"/>
+          <!-- Unnamed () -->
+          <div id="u6463" class="text">
+            <p><span>10</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6464" class="ax_default table_cell">
+          <img id="u6464_img" class="img " src="images/统计需求-待补充第三方统计/u6384.png"/>
+          <!-- Unnamed () -->
+          <div id="u6465" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6466" class="ax_default table_cell">
+          <img id="u6466_img" class="img " src="images/原型尺寸/u1554.png"/>
+          <!-- Unnamed () -->
+          <div id="u6467" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6468" class="ax_default table_cell">
+          <img id="u6468_img" class="img " src="images/统计需求-待补充第三方统计/u6388.png"/>
+          <!-- Unnamed () -->
+          <div id="u6469" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6470" class="ax_default table_cell">
+          <img id="u6470_img" class="img " src="images/统计需求-待补充第三方统计/u6470.png"/>
+          <!-- Unnamed () -->
+          <div id="u6471" class="text">
+            <p><span>11</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6472" class="ax_default table_cell">
+          <img id="u6472_img" class="img " src="images/统计需求-待补充第三方统计/u6472.png"/>
+          <!-- Unnamed () -->
+          <div id="u6473" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6474" class="ax_default table_cell">
+          <img id="u6474_img" class="img " src="images/边界问题/u3453.png"/>
+          <!-- Unnamed () -->
+          <div id="u6475" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (Table Cell) -->
+        <div id="u6476" class="ax_default table_cell">
+          <img id="u6476_img" class="img " src="images/统计需求-待补充第三方统计/u6476.png"/>
+          <!-- Unnamed () -->
+          <div id="u6477" class="text" style="display:none; visibility: hidden">
+            <p><span></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
